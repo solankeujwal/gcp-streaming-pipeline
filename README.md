@@ -1,3 +1,4 @@
+
 # Real-Time Streaming Pipeline: Pub/Sub → Dataflow → BigQuery
 
 Set `PROJECT_ID` in `config.env` first. Default region: `asia-south1` (Mumbai)
@@ -40,3 +41,10 @@ Then run the queries in `queries.sql` in the BigQuery console. Rows appear withi
 ## Cost warning
 A streaming Dataflow job bills **continuously** until stopped. When finished, run `./teardown.sh`
 (it drains the job so in-flight data is flushed).
+
+<img width="1920" height="1080" alt="6" src="https://github.com/user-attachments/assets/8bbfcb80-aece-4db2-b868-9f2af27a0e62" />
+<img width="1920" height="1080" alt="5" src="https://github.com/user-attachments/assets/7c23c405-4a76-47f2-884d-689bd0b29bbc" />
+<img width="1920" height="1080" alt="4" src="https://github.com/user-attachments/assets/25b42def-e194-41d1-a9ba-d90e39c0e058" />
+<img width="1920" height="1080" alt="3" src="https://github.com/user-attachments/assets/e3a9276e-307d-45bc-9e08-ff46f30d46a2" />
+<img width="1920" height="1080" alt="2" src="https://github.com/user-attachments/assets/3e750f8f-be84-4a98-a8f1-94e725b9a5a4" />
+<img width="1920" height="1080" alt="1" src="https://github.com/user-attachments/assets/07fb02a7-0b7a-483f-924c-93b9284d8e40" />
